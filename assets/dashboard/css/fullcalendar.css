@@ -1,0 +1,93 @@
+.fc-header-toolbar .fc-right h2{
+	font-size: 16px;
+	color: #474747;
+	font-style: normal;
+	font-weight: 500;
+	display: inline-block;
+}
+
+.fc-header-toolbar .fc-right .fc-prev-button{margin-right: 5px;}
+
+.fc-header-toolbar .fc-right .fc-next-button{
+	margin-left: 5px;
+}
+
+.fc-header-toolbar .fc-left .fc-viewCalText-button{
+	font-size: 18px;
+	color: #000;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.fc-header-toolbar .fc-left .fc-viewCalText-button:hover{
+	background: transparent;
+	cursor: unset;
+}
+
+.fc-day-header.fc-widget-header{
+	 padding: 16px 16px;
+}
+
+.cstmDate{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8A0A28;
+}
+
+.cstmDay, .fc-axis.fc-time.fc-widget-content span, .fc-axis.fc-widget-content span{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 18px;
+	color: #8A0A28;
+	text-transform: uppercase;
+	opacity: 1;
+	font-weight: 600;
+}
+
+.fc-event-container .fc-content{
+	color: #474747 !important;
+}
+
+.fc-event-container .fc-title{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px !important;
+	color: #474747 !important;
+}
+
+.bg-primary--lt .fc-content, .bg-primary--lt .fc-title{
+	color: #fff !important
+}
+
+.fc-time-grid .fc-slats td{
+	height: 6em;
+}
+
+.fc-unthemed .fc-divider{
+	background: #8A0A28;
+}
+
+.fc-day.fc-widget-content.fc-other-month, .fc-day.fc-widget-content{
+	background-color: #fff !important;
+}
+
+.fc-axis.fc-widget-header, .fc-day-header.fc-widget-header, .fc-axis.fc-widget-content{
+	background: linear-gradient(to bottom, rgba(138,34,39),rgba(138,34,39, 0.6));
+	color: #fff;
+}
+
+.fc-day-header.fc-widget-header span .cstmDay, .fc-day-header.fc-widget-header span .cstmDate, .fc-axis.fc-widget-content span, .fc-axis.fc-time.fc-widget-content span{
+	color: #fff;
+}
+
+.fc-day-grid-event .fc-time, .fc-day-grid-event .fc-title{
+	font-size: 0.75em !important;
+	font-weight: 500;
+}
